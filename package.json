@@ -6,16 +6,8 @@
   "scripts": {
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/basdijkstra/api-testing-javascript.git"
-  },
-  "author": "Bas Dijkstra",
+  "author": "Elvis",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/basdijkstra/api-testing-javascript/issues"
-  },
-  "homepage": "https://github.com/basdijkstra/api-testing-javascript#readme",
   "devDependencies": {
     "jest": "^27.4.7",
     "pactum": "^3.1.1"

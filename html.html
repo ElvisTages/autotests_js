@@ -1,1 +1,26 @@
-<div></div>
+<a>{{single_word}}</a>
+<br />
+<br />
+<h1>Properties of object</h1>
+{{#with properties_of_object}}
+<div>{{property1}}</div>
+<div>{{property2}}</div>
+{{/with}}
+<br />
+<br />
+<h1>Array of objects</h1>
+{{#arraysTemplate array_of_objects}}
+<div>
+  <h5>{{index}}</h5>
+  {{elem}}
+</div>
+<div>{{this}}</div>
+{{/arraysTemplate}}
+<br />
+<br />
+<h1>Simple array</h1>
+{{#arraysTemplate simple_array}}
+<p>{{this}}</p>
+{{/arraysTemplate}}
+<img src="{{{imageSrcQr}}}" />
+<div>{{object.tag_name}}</div>
